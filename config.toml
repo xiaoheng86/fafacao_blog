@@ -1,4 +1,4 @@
-baseURL = "https://www.fafacao.tech/"
+baseURL = "https://fafacao.tech/"
 languageCode = "en-us"
 title = "Fafacao"
 theme = "beautifulhugo"
