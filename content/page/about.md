@@ -5,9 +5,9 @@ comments: false
 ---
 # 个人简介
 
-​	发发懆，[西北工业大学](https://www.nwpu.edu.cn/)软件工程专业大二本科生，校内[开发者社区](http://www.devhub.club)后端组成员，对分布式系统很感兴趣，目前在学习Java Web开发。
-<br>
-<br>
+​	发发懆，[西北工业大学](https://www.nwpu.edu.cn/)软件工程专业大二本科生，校内[开发者社区](https://www.devhub.club)后端组成员，对分布式系统很感兴趣，目前在学习Java Web开发。
+<br/>
+<br/>
 
 # 技术能力
 
@@ -16,8 +16,8 @@ comments: false
 * 熟练使用Linux操作系统，掌握Docker，熟悉MySQL，Redis，Jenkins流水线部署。
 * 会使用SpringBoot，SpringMVC，Mybatis等Java Web技术栈编写业务接口。
 * 熟悉操作系统，计算机网络的基础知识。
-<br>
-<br>
+<br/>
+<br/>
 
 # 项目经历
 
@@ -31,8 +31,8 @@ comments: false
 
 主要职责：
 
-<br>
-<br>
+<br/>
+<br/>
 
 
 # 联系方式
@@ -40,6 +40,4 @@ comments: false
 Email：xh2545142071@163.com
 
 Github：https://github.com/xiaoheng86
-
-Tieba：https://tieba.baidu.com/home/main?id=tb.1.b0d1c6eb.HmURr1jYKD8AKpYqrq6o5g?t=1641002060&fr=index
 
