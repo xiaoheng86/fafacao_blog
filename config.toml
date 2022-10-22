@@ -50,7 +50,7 @@ pygmentsCodefencesGuessSyntax = true
   
 
 [[menu.main]]
-    name = "Blog"
+    name = "Home"
     url = "/"
     weight = 1
 
