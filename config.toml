@@ -1,6 +1,6 @@
 baseURL = "https://fafacao.tech/"
 languageCode = "en-us"
-title = "Fafacao"
+title = "Blog"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
@@ -12,7 +12,7 @@ pygmentsCodefencesGuessSyntax = true
 
 
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  homeTitle = "Fafacao" # Set a different text for the header on the home page
   subtitle = "分布式爱好者"
   mainSections = ["post","posts"]
   logo = "img/profile.jpeg" # Expecting square dimensions
