@@ -22,7 +22,7 @@ In one word, **machine learning is looking for functions**.
 
 ​	**label** is the training data value corresponding to feature
 
-![Loss](.\media\Loss.png)
+![Loss](./media/Loss.png)
 
 
 
@@ -32,7 +32,7 @@ Find a a set of parameters to get the minimum Loss
 
 Method: **Gradient Descent**
 
-![GradientDescent](.\media\GradientDescent.png)
+![GradientDescent](./media/GradientDescent.png)
 
 **η: Learning Rate (Increament in each round of update)**
 
@@ -42,4 +42,6 @@ Method: **Gradient Descent**
 
 linear models have severe limitation, they are too simple
 
-![piecewise](.\media\piecewise.png)
+![piecewise](./media/piecewise.png)
+
+![sigmoid](./media/sigmoid.png)
