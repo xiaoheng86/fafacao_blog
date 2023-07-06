@@ -56,3 +56,26 @@ Analogy to real world physics, inertia of a moving object can enable it to get a
 **Learning Rate Decay**: as the training goes, we are closer to the destination, so we reduce the learning rate
 
 **Warm Up**: Increase then decrease
+
+
+
+## Classification in short
+
+**softmax**: normalize a vector and amplify the difference between big element and small element
+
+![softmax](media/softmax.png)
+
+**cross-entropy**: is a Loss function
+
+***Pytorch***: cross-entropy and softmax are bound together, if you call cross-entropy pytorch will automatically add a layer of softmax at the end of your network
+
+
+
+## Batch Normalization
+
+Batch Normalization is used to change the error surface to make it easier to navigate
+
+![normalization](media/normalization.png)
+
+**In deep learning**, it is often suggested doing Batch Normalization followed by each layer
+
