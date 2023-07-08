@@ -27,5 +27,11 @@ The communication costs are way more than the acutally computation costs.
 
  
 
-# Why parallelism?
+# ILP
+
+**Intruction Level Parallelism**
+
+* Processors did in fact leverage parallel execution to make programs run faster, it was just invisible to the programmer 
+* Instructions must appear to be executed in program order, but independent instructions can be executed simultaneously by a processor without impacting program correctness
+* **Superscalar execution**: processror dynamically finds independent instructions in an instruction sequence and executes them in parallel
 
