@@ -91,3 +91,12 @@ When assigning workload, try to **reduce inherent communication**, and increase 
 
 
 Reconsider the order of iterations to fit better in the cacheing scheme.
+
+
+
+# Case Studies
+
+* Workload splitted by blocks to increase arithmetic intensity
+* Block-major memory layout to exploit cache
+
+<div>           <!--块级封装-->    <center>    <!--将图片和文字居中-->    <img src="media/gridlayout.png"         alt="无法显示图片"         style="zoom:75%"/>   </center></div>
