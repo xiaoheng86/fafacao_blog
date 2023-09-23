@@ -10,6 +10,20 @@ This happens even in groups containing a single thread when that thread attempts
 
 Locking hierarchies order the locks and prohibit acquiring locks out of order.
 
+```C++
+// Using C++
+void swap(Counter& a, Counter& b){
+    Mutex aLock = a.mutex.aquire();
+    Mutex bLock = b.mutex.aquire();
+    int tmp = a.getValue();
+    a = b;
+    b = tmp;
+    
+}
+```
+
+swap(a, b) and swap(b, a) might cause deadlock.
+
 
 
 ### Local locking hierarchies
