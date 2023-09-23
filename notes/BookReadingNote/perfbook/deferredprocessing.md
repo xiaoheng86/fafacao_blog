@@ -115,7 +115,7 @@ BUGGY implementation of reference counting based Pre-BSD routing algorithmn
 46 		if (atomic_dec_and_test(&rep->re_refcnt))
 47 			re_free(rep);
 48 		return ret;
-}
+49 }
 ```
 
 ```c
@@ -129,7 +129,7 @@ BUGGY implementation of reference counting based Pre-BSD routing algorithmn
 8 	atomic_set(&rep->re_refcnt, 1);
 9 	rep->addr = addr;
 10 	rep->iface = interface;
-11 	spin_lock(&rosssutelock);
+11 	spin_lock(&routelock);
 12 	rep->re_next = route_list.re_next;
 13 	rep->re_freed = 0;
 14 	route_list.re_next = rep;
