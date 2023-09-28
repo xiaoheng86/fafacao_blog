@@ -247,6 +247,7 @@ The basic rule behind this strategy was discussed in Section 7.1.1.2: “Release
 
 If a thread executing a library function is holding a lock at the time that some other thread invokes fork(), the fact that the parent’s memory is copied to create the child means that this lock will be born held in the child’s context. The thread that will release this lock is running in the parent, but not in the child, which means that although the parent’s copy of this lock will be released, the child’s copy never will be. Therefore, any attempt on the part of the child to invoke that same library function (thus acquiring that same lock) will result in deadlock.
 
-A pragmatic and straightforward way of solving this problem is to fork() a child process while the process is still single-threaded, and have this child process remain single-threaded.
+A pragmatic and straightforward way of solving this problem is to fork() a child process while the process is still single-threaded, and have this child process remain single-threaded. 
 
 The pthread_atfork() function is provided to help deal with these situations.
+
