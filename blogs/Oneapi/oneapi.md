@@ -292,3 +292,18 @@ To simplify kernel development and accelerate communication between  work-items 
     <br>		<!--换行-->
     </center>
 </div>
+
+When a work-group begins, the contents of its local memory are  uninitialized, and local memory does not persist after a work-group  finishes executing. Because of these properties, local memory may only be  used for temporary storage while a work-group is executing
+
+
+
+### Sub-groups
+
+ A subgroup is an implementation-defined subset of work-items in a work-group that execute together on the same hardware resources or with additional  scheduling guarantees. Because the implementation decides how to group  work-items into sub-groups, the work-items in a sub-group may be able to  communicate or synchronize more efficiently than the work-items in an  arbitrary work-group.
+
+<u>*Sub-group is similar to warp in CUDA and collective function like broadcast, shuffle are similar to CUDA warp-level primitives*</u>
+
+
+
+
+
